@@ -1,0 +1,43 @@
+body{
+    background-color: #666566;
+}
+
+#topText{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#choosing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.buttons{
+    background-color: #353436; 
+    border: none;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    height: 47px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+.buttons:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 165px;
+    height: 95px;
+}

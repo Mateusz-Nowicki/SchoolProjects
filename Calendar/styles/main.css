@@ -1,0 +1,51 @@
+.topText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    font: bold;
+    
+}
+
+body {
+    background: linear-gradient(90deg,black, white,black);
+}
+
+.buttonContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.buttons{
+    background-color: #aa0473; 
+    border: none;
+    color: white;
+    width: 160px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+
+
+.buttons:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 165px;
+    height: 95px;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
