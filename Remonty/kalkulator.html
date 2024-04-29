@@ -7,6 +7,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='../mainCSS/GlobalCSS.css'>
+  <script src='mainScript.js'></script>
 </head>
 <body>
   <div id="mainContainer">
@@ -38,18 +39,11 @@
     </div>
 
     <div id="content">
-      <h1>Nasza oferta</h1>
-      <ol>
-        <li>Malowanie
-          <ul type="disc">
-            <li>elewacji</li>
-            <li>wnętrza mieszkania</li>
-          </ul>
-        </li>
-        <li>układanie glazury</li>
-        <li>układanie podłóg</li>
- 	    </ol>
-
+      <h1>Malowanie pokoju: 8 zł za m2 </h1>
+      <p>Wymiary pokoju w metrach: <input type="number" id="wymiar1"> <input type="number" id="wymiar2"></p><br>
+      <button id="calcButton" onclick=Oblicz()>OBLICZ KOSZT</button>
+      <p id="wynik1_js"></p>
+      <p id="wynik2_js"></p>
     </div>
     <div id="footer">
       <h2>Stronę wykonał: Mateusz Nowicki 3F</h2>
