@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../mainCSS/GlobalCSS.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../mainCSS/choosePageCSS.css'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mateusz Nowicki REGEX</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        let pattern = /^[-]*([0]*)([1-9]*)([eE]?)([,.]?)([0-9]*([,.]?))*$/
+
+        let number = prompt("Wpisz wartość liczbową");
+        while(!number.match(pattern) || number == null){
+            number = prompt(`Wpisałeś niepoprawną wartość, spróbuj ponownie. Twoja wartość to: ${number}`);
+        };
+        alert(`Poprawna wartość ${number}`)
+        
+    </script>
+</head>
+<body>
+    <div id="backPage">
+        <form action="../index.html">
+            <button class="buttons">Strona główna</button>
+        </form>
+    </div>
+</body>
+</html>
